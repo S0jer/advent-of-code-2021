@@ -1,4 +1,4 @@
-with open("day15ChitonTest.txt") as f:
+with open("data/day15ChitonTest.txt") as f:
     A = []
     for line in f:
         A.append([int(x) for x in line.strip('\n')])

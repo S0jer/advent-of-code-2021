@@ -32,7 +32,7 @@ def fuel(A):
 
 
 if __name__ == '__main__':
-    with open("day7CrabTest.txt") as f:
+    with open("data/day7CrabTest.txt") as f:
         A = [int(x) for x in f.readline().split(',')]
 
     print(fuel(A))

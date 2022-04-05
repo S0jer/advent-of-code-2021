@@ -25,7 +25,7 @@ def SonarSweepWindows(A):
 
 if __name__ == '__main__':
     A = []
-    with open('testSonarSweep.txt') as f:
+    with open('data/testSonarSweep.txt') as f:
         for line in f:
             A.append(int(line))
 

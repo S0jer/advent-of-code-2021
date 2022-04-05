@@ -3,7 +3,7 @@ from math import inf
 import itertools
 
 cubes = []
-with open("day22CubeTest.txt") as f:
+with open("data/day22CubeTest.txt") as f:
     cnt = 0
     minimum, maximum = inf, - inf
     for line in f:

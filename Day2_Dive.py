@@ -21,7 +21,7 @@ def dive(A):
 
 if __name__ == '__main__':
     A = []
-    with open("diveTest.txt") as f:
+    with open("data/diveTest.txt") as f:
         for line in f:
             row = line.split()
             A.append([row[0], int(row[1])])

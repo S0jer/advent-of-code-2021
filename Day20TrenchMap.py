@@ -5,7 +5,7 @@ import re
 import ast
 from collections import defaultdict, Counter, deque
 
-with open("day20MapTest.txt") as f:
+with open("data/day20MapTest.txt") as f:
     code = ""
     for line in f:
         for element in line:
@@ -127,7 +127,7 @@ print(lit)
 # ------------------------------------------------------------------------------------------------------
 
 
-infile = sys.argv[1] if len(sys.argv) > 1 else 'day20MapTest.txt'
+infile = sys.argv[1] if len(sys.argv) > 1 else 'data/day20MapTest.txt'
 data = open(infile).read().strip()
 
 rule, start = data.split('\n\n')

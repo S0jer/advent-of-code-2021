@@ -1,4 +1,4 @@
-with open("day13FoldingTest.txt") as f:
+with open("data/day13FoldingTest.txt") as f:
     dots = []
     foldAlong = []
     for line in f:

@@ -103,7 +103,7 @@ def findCo(A, T, x):
 
 if __name__ == '__main__':
     A = []
-    with open("diagnosticTest.txt") as f:
+    with open("data/diagnosticTest.txt") as f:
         for line in f:
             row = line.split()
             A.append(row[0])

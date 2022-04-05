@@ -38,7 +38,7 @@ def isWinner(card):
 
 
 if __name__ == '__main__':
-    with open("bingoTest.txt") as f:
+    with open("data/bingoTest.txt") as f:
         drawn = [int(x) for x in f.readline().strip('\n').split(',')]
         cards = []
         while f.readline():

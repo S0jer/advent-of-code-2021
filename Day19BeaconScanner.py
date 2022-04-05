@@ -1,12 +1,12 @@
 from math import inf
 
 n = 0
-with open("day19BeaconTest.txt") as f:
+with open("data/day19BeaconTest.txt") as f:
     for line in f:
         if "scanner" in line:
             n += 1
 
-with open("day19BeaconTest.txt") as f:
+with open("data/day19BeaconTest.txt") as f:
     scanners = [[] for _ in range(n)]
     idx = -1
     for line in f:

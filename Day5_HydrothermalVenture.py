@@ -50,7 +50,7 @@ def hydrothermal(pairs, mini, maxi):
 if __name__ == '__main__':
     pairs = []
     maxi, mini = -inf, inf
-    with open("day5Test.txt") as f:
+    with open("data/day5Test.txt") as f:
         for row in f:
             pair = []
             pair.extend([int(x) for x in row.replace(' -> ', ',').split(',')])

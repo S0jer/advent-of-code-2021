@@ -1,6 +1,6 @@
 snail_numbers = []
 
-with open("day18SnailTest.txt") as f:
+with open("data/day18SnailTest.txt") as f:
     raw_data = f.read().strip().split("\n")
 data = [eval(line) for line in raw_data]
 

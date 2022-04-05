@@ -1,6 +1,6 @@
 from math import ceil
 
-with open("day14PolymeryzationTest.txt") as f:
+with open("data/day14PolymeryzationTest.txt") as f:
     template = ''
     pairs = []
     for line in f:

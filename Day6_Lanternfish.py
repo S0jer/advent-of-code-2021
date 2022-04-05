@@ -33,7 +33,7 @@ def lantern_fish_smart(A, days):
 
 
 if __name__ == '__main__':
-    with open("day6LanterfishTest.txt") as f:
+    with open("data/day6LanterfishTest.txt") as f:
         A = [int(x) for x in f.readline().split(',')]
 
     days = 256

@@ -1,5 +1,5 @@
 A = []
-for line in open("day11OctopusTest.txt"):
+for line in open("data/day11OctopusTest.txt"):
     A.append([int(x) for x in line.strip()])
 
 lights = 0

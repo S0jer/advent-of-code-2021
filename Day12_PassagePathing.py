@@ -32,7 +32,7 @@ def smallTwice(path):
 
 graph = dict()
 A = []
-for line in open("day12CaveTest.txt"):
+for line in open("data/day12CaveTest.txt"):
     A = [str(x) for x in line.strip('\n\r').split('-')]
 
     if graph.get(A[0], "FirstTime") == "FirstTime":

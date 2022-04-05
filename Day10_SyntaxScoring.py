@@ -107,7 +107,7 @@ def count_cost(A):
 
 if __name__ == '__main__':
     A = []
-    with open("day10ErrorSyntax.txt") as f:
+    with open("data/day10ErrorSyntax.txt") as f:
         for line in f:
             A.append(str(line))
 

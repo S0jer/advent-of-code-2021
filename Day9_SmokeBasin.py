@@ -78,7 +78,7 @@ def if_possible(x, y, n, m):
 
 
 if __name__ == '__main__':
-    with open("day9SmokeTest.txt") as f:
+    with open("data/day9SmokeTest.txt") as f:
         A = []
         for line in f:
             A.append([int(x) for x in line.strip()])

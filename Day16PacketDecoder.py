@@ -4,7 +4,7 @@ dict = [['0', '0000'], ['1', '0001'], ['2', '0010'], ['3', '0011'], ['4', '0100'
         ['7', '0111'], ['8', '1000'], ['9', '1001'], ['A', '1010'], ['B', '1011'], ['C', '1100'], ['D', '1101'],
         ['E', '1110'], ['F', '1111']]
 
-with open("day16PacketTest.txt") as f:
+with open("data/day16PacketTest.txt") as f:
     raw_data = f.read().strip()
 
 data = bin(int(raw_data, base=16))[2:]
